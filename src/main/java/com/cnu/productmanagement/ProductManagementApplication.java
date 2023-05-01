@@ -1,13 +1,13 @@
-package com.cnu.projectmanagement;
+package com.cnu.productmanagement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProjectManagementApplication {
+public class ProductManagementApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ProjectManagementApplication.class, args);
+        SpringApplication.run(ProductManagementApplication.class, args);
     }
 
 }

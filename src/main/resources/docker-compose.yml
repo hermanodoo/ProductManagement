@@ -1,0 +1,14 @@
+version: '20.10.24'
+services:
+  db:
+    image: 'mariadb'
+    restart: 'always'
+    expose:
+      - '3306'
+    ports:
+      - '3308:3308'
+    environment:
+      MYSQL_ROOT_PASSWORD: 'root'
+      MYSQL_DATABASE: 'product_management'
+      MYSQL_USER: 'root'
+      MYSQL_PASSWORD: 'root'
